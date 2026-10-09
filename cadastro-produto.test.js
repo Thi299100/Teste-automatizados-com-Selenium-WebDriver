@@ -1,6 +1,7 @@
 
 const { Builder, By, until } = require("selenium-webdriver");
 const assert = require("node:assert/strict");
+npm init -y
 
 async function testeCadastroProduto() {
     const driver = await new Builder()
@@ -92,4 +93,5 @@ async function testeCadastroProduto() {
     }
 }
 
-testeCadastroProduto();
+testeCadastroProduto(); 
+npm install selenium-webdriver
